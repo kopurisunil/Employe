@@ -11,6 +11,7 @@ public class Student {
         System.out.println("Student ID   : " + id);
         System.out.println("Marks        : " + marks);
         System.out.println("Ok thank you");
+        System.out.println("Bye Bye");
 
         if (marks >= 35) {
             System.out.println("Result       : PASS");
