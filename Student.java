@@ -1,22 +1,12 @@
-```java
-import java.util.Scanner;
-
 public class Student {
 
     public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in);
+        String name = "Sunil";
+        int id = 101;
+        int marks = 85;
 
-        System.out.print("Enter Student Name: ");
-        String name = sc.nextLine();
-
-        System.out.print("Enter Student ID: ");
-        int id = sc.nextInt();
-
-        System.out.print("Enter Marks: ");
-        int marks = sc.nextInt();
-
-        System.out.println("\n--- Student Details ---");
+        System.out.println("--- Student Details ---");
         System.out.println("Student Name : " + name);
         System.out.println("Student ID   : " + id);
         System.out.println("Marks        : " + marks);
@@ -26,8 +16,6 @@ public class Student {
         } else {
             System.out.println("Result       : FAIL");
         }
-
-        sc.close();
     }
 }
-```
+
